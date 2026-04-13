@@ -1,0 +1,43 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e51]:
+            - generic [ref=e54]: Create a simple profile card component with an avatar, name, title, and a follow button
+            - img [ref=e57]
+          - generic [ref=e60]:
+            - img [ref=e63]
+            - generic [ref=e68]:
+              - generic [ref=e69]:
+                - img [ref=e72]
+                - generic [ref=e75]: "Creating file: App.jsx"
+              - separator [ref=e76]
+              - generic [ref=e77]:
+                - paragraph [ref=e78]: "Done! Created a profile card component with:"
+                - list [ref=e79]:
+                  - listitem [ref=e80]: Circular avatar image
+                  - listitem [ref=e81]: Name and title
+                  - listitem [ref=e82]: Follow button that toggles between "Follow" and "Following" states
+                  - listitem [ref=e83]: Clean styling with Tailwind CSS
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [selected] [ref=e35]
+          - tab "Code" [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - iframe [ref=e84]:
+        - generic [ref=f2e4]:
+          - img "Avatar" [ref=f2e6]
+          - heading "Alex Johnson" [level=2] [ref=f2e7]
+          - paragraph [ref=f2e8]: Product Designer
+          - button "Follow" [ref=f2e9] [cursor=pointer]
+  - alert [ref=e50]
